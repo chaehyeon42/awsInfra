@@ -82,4 +82,4 @@ jobs:
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         working-directory: ${{ env.TF_WORKING_DIR }}
-        run: terraform apply -auto-approve -var="key_pair_name=MyCliKeyPair"
+        run: terraform apply -auto-approve -var="key_pair_name=SKlch"
