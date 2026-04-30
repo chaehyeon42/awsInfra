@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "myapp-terraform-state-20260429"
+    bucket         = "myapp-terraform-20260430-lch"
     key            = "training/lab06/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
